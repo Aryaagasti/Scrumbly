@@ -1,0 +1,99 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Carter+One&family=Nunito:ital,wght@0,200;0,300;0,400;1,500;1,600&family=Poppins:ital,wght@0,700;1,400&family=Roboto:wght@400;700&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Carter+One&family=Nunito:ital,wght@0,200;0,300;0,400;1,500;1,600&family=Poppins:ital,wght@0,700;1,400&family=Roboto:wght@400;700&family=Source+Sans+3:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+}
+header{
+    width: 100%;
+    line-height: 20vh;
+    background-color: #20bfae;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-family: 'Carter One', cursive;
+    text-transform: uppercase;
+    font-size: 4.8rem;
+    letter-spacing: 16px;
+    text-shadow: 0 1px 0 #efefef,
+                0 2px 0 #efefef,
+                0 3px 0 #efefef,
+                0 4px 0 #efefef,
+                0 30px 5px rgba(0,0,0,.1);
+
+    
+}
+section{
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7bedcc;
+}
+.gamearea{
+    width: 50%;
+    height: 400px;
+    padding: 20px 0;
+    background-color: #2ecfd5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Source Sans 3', sans-serif;
+    align-items: center;
+    box-shadow: 0 8px 6px -6px black;
+
+}
+h3{
+    text-align: center;
+    font-size: 1.7rem;
+}
+input{
+    width: 50%;
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    background-color: #dff9fb;
+    box-shadow: 0 8px 6px -6px black;
+    color: black;
+    margin: 2rem 0 ;
+    font-size: 1rem;
+}
+button{
+    font-weight: 500;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    background: white;
+    text-transform: uppercase;
+    border-radius: 25px;
+    transition-property: all;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 6px -6px black;
+    transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+button.btn:hover,
+button.btn:focus,
+buuton.btn:active{
+    letter-spacing: 0.100rem;
+    word-spacing: 0.1.5rem;
+}
+.hidden{
+    display: none;
+}
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    background-color: #7bedcc;
+    justify-content: center;
+    text-align: center;
+    
+}
+h4{
+    color: #ffffff4a;
+    font-size: 4.8rem;
+}
